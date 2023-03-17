@@ -1,0 +1,17 @@
+#root {
+  max-width: 2500px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+.grid{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,250px );
+  grid-template-rows: repeat(4, 250px);
+  grid-gap: 20px;
+}
+
+.read-the-docs {
+  color: #888;
+}
